@@ -27,7 +27,7 @@ This journey covers my Web Development Journey
    * [x] - Responsive Design
    * [x] - Technical Documentation
    
-* [] 4) Course 4
+* [ ] 4) Course 4
    * [x] - CSS Variables
    * [ ] - CSS Grid
    * [ ] - Landing Page
