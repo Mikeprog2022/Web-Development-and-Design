@@ -32,8 +32,8 @@ This journey covers my Web Development Journey
    * [x] - CSS Grid
    * [x] - Landing Page
    
-* [ ] 5) Course 5
-   * [ ] - CSS Animations
+* [x] 5) Course 5
+   * [x] - CSS Animations
    * [ ] - CSS Transforms
    * [ ] - Portfolio
 
