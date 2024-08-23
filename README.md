@@ -27,10 +27,15 @@ This journey covers my Web Development Journey
    * [x] - Responsive Design
    * [x] - Technical Documentation
    
-* [ ] 4) Course 4
+* [x] 4) Course 4
    * [x] - CSS Variables
-   * [ ] - CSS Grid
-   * [ ] - Landing Page
+   * [x] - CSS Grid
+   * [x] - Landing Page
+   
+* [ ] 5) Course 5
+   * [ ] - CSS Animations
+   * [ ] - CSS Transforms
+   * [ ] - Portfolio
 
 ## Acknowledgments
 * [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design#build-a-tribute-page-project)
