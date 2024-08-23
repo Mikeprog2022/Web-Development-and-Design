@@ -9,6 +9,9 @@ This journey covers my Web Development Journey
 - Web Development
 - Web Design
 
+## Achievements
+![Web Design Certificate](./web-design/fCCCert.jpg)
+
 ### Web Design
 * [x] 1) Course 1 
    * [x] - Basic HTML
