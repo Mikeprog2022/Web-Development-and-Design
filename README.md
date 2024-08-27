@@ -41,4 +41,4 @@ This journey covers my Web Development Journey
    * [x] - Portfolio
 
 ## Acknowledgments
-* [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design#build-a-tribute-page-project)
+* [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
