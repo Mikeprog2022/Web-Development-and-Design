@@ -1,4 +1,5 @@
 # Web Development and Design Journey
+
 This journey covers my Web Development Journey
 
 ## Technologies applied
@@ -6,13 +7,16 @@ This journey covers my Web Development Journey
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
 
 ## Contents
+
 - Web Development
 - Web Design
 
 ## Achievements
+
 ![Web Design Certificate](./web-design/fCCCert.jpg)
 
 ### Web Design
+
 * [x] 1) Course 1 
    * [x] - Basic HTML
    * [x] - Basic CSS
@@ -40,5 +44,14 @@ This journey covers my Web Development Journey
    * [x] - CSS Transforms
    * [x] - Portfolio
 
+### JavaScript Algorithms and Data Structures
+
+* [ ] 1) Course 1 
+   * [x] - Introductory JS
+   * [x] - JS Fundamentals
+   * [ ] - Basic JS
+   * [ ] - Basic Debugging
+
 ## Acknowledgments
+
 * [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
