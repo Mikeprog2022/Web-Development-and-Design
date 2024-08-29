@@ -49,8 +49,12 @@ This journey covers my Web Development Journey
 * [ ] 1) Course 1 
    * [x] - Introductory JS
    * [x] - JS Fundamentals
-   * [ ] - Basic JS
-   * [ ] - Basic Debugging
+   * [x] - Basic JS
+   * [x] - Basic Debugging
+   * [ ] - Form Validation
+   * [ ] - DOM Manipulation
+   * [ ] - String and array methods
+   * [ ] - Palindrome checker
 
 ## Acknowledgments
 
