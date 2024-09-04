@@ -51,8 +51,8 @@ This journey covers my Web Development Journey
    * [x] - JS Fundamentals
    * [x] - Basic JS
    * [x] - Basic Debugging
-   * [ ] - Form Validation
-   * [ ] - DOM Manipulation
+   * [x] - Form Validation
+   * [x] - DOM Manipulation
    * [ ] - String and array methods
    * [ ] - Palindrome checker
 
