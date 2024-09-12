@@ -53,7 +53,7 @@ This journey covers my Web Development Journey
    * [x] - Basic Debugging
    * [x] - Form Validation
    * [x] - DOM Manipulation
-   * [ ] - String and array methods
+   * [x] - String and array methods
    * [ ] - Palindrome checker
 
 ## Acknowledgments
