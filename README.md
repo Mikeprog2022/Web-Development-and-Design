@@ -46,7 +46,7 @@ This journey covers my Web Development Journey
 
 ### JavaScript Algorithms and Data Structures
 
-* [ ] 1) Course 1 
+* [x] 1) Course 1 
    * [x] - Introductory JS
    * [x] - JS Fundamentals
    * [x] - Basic JS
@@ -54,7 +54,7 @@ This journey covers my Web Development Journey
    * [x] - Form Validation
    * [x] - DOM Manipulation
    * [x] - String and array methods
-   * [ ] - Palindrome checker
+   * [x] - Palindrome checker
 
 ## Acknowledgments
 
