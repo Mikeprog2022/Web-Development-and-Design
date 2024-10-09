@@ -1,0 +1,37 @@
+- console.log()
+- let variable; = type undefined
+- primitive datatypes = Hold one value at a time
+- array.length = returns no. of array elements
+- array.push(item) = pushes a value to the end of an array
+- array.unshift(item) = adds a value to the start of an array and returns the new array length
+- array.pop() = removes last array element and returns it
+- array.shift() = removes first array element
+- const variable
+- for (let iterator; condition; iteration) {logic;}
+- for (const value of iterable) {loogic}
+- string.repeat(number) = repeats the string
+- functions return undefined by default
+- Falsy = false, 0, "", null, undefined, Nan
+- document.querySelector("cssSelector")
+- element.onclick = functionName
+- htmlElement.innerText = text in a HTML element
+- htmlElement.style = access inline element style
+- htmlElement.style.display = ""
+- object.key = value
+- object[key] = value
+- Math.random() = generates a random number between 0 and 1
+- Math.random * x = generates a random number between 0 and x
+- (Math.random * x) + y = generates a random number between y and x
+- Math.floor() = rounds number down to nearest integer
+- htmlElement.innerHTML = content in a HTML element
+- array.includes(item) = returns true or false
+
+- Object.freeze(obj) = Freezes an object and prevents any changes being made to it.
+- const {sport, team} = myFavoriteFootballTeam; === const sport = myFavoriteFootballTeam.sport; const team = myFavoriteFootballTeam.team;
+- const {sport} = myFavoriteFootballTeam.sport === const sport = myFavoriteFootballTeam.sport.sport
+
+- function x(parameter=defaultValue){}
+
+- element.addEventListener("change", function) = event listeners for select box inputs
+- an object is passed when EventListener is called: e
+	-- e.target.value = value of the element
