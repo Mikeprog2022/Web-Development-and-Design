@@ -15,6 +15,14 @@
 - date.getMonth() = retuns a number btwn 0 and 11 representing the month
 - date.getFullYear() = retuns a number btwn 0 and 11 representing the year
 
+- JSON.stringify(json) = convert json to string
+- JSON.parse(string) = convert string to json
+
+- localStorage = saving, retrieving, and deleting items of any JS data type.
+- localStorage.setItem("key", JSON.stringify(value)) = save an item, saved items need to be in string format
+- localStorage.getItem("key") = retrieve an item
+- localStorage.removeItem() = delete an item
+- localStorage.clear() = delete all items
 
 - dialogElement.showModal() = Displays a modal dialog box
 - dialogElement.close() = Close a modal dialog box
@@ -45,6 +53,7 @@
 - array.filter(callBackFunction) = Only keeps the elements that satisfy the callBackFunction
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
+- array.splice(indexToStartAt, numberOfItemsToRemove, optionalReplacement) = modifies arrays by removing, replacing, or adding elements at a specified index.
 
 - for (let iterator; condition; iteration) {logic;}
 - for (const value of iterable) {logic}
@@ -73,6 +82,8 @@
 - htmlINputElement.value = input value
 - htmlElement.onclick = functionName
 - htmlElement.innerText = text inbetween HTML element selectors
+- htmlElement.parentElement = get the parent element
+- htmlElement.element.remove() = remove element
 - htmlElement.textContent = sets the text of a node. Set or retrieve the text content of an HTML element
 - Use textContent when you want all of the text inside an element, regardless of visibility or formatting. Use innerText when you care about the text as it appears to the user (i.e., considering styling and visibility).
 - htmlElement.style = access inline element style
