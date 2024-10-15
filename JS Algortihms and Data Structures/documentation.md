@@ -57,7 +57,7 @@
 - array.sort(compareCallbackFuntion(2 parameters)) = Expects a number to be returned and if a -ve number is returned the first item is sorted before the second.
 - array.find(callBackFunction) = Returns the value of the first element that fulfills the condition specified in the callBackFunction.
 - array.indexOf(element) = Returns element index or -1 if not found.
-- array.foreach(function) = Loops through an array and performs the function on each element. Doesn't return doesn't modify original array.
+- array.foreach(function) = Loops through an array and performs the function on each element. Doesn't return, doesn't modify original array.
 - array.filter(callBackFunction) = Only keeps the elements that satisfy the callBackFunction
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
