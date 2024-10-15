@@ -2,8 +2,14 @@
 - label for = input id
 - var1.var2? = optional chaining
 
+- call stack is LIFO
+
 - let variable; = type undefined
 - const variable
+
+- isNaN(value) = Check if the value is a number or not. Returns true or false
+
+- setTimeout(callBackFunction/callBackFunctionReference,timeInMilliseconds) = async
 
 - new Audio().
 
@@ -17,6 +23,9 @@
 
 - JSON.stringify(json) = convert json to string
 - JSON.parse(string) = convert string to json
+- parseInt(string) = Converts a string into an integer, returns int or Nan
+- String(value) = Coverts a value to a string
+- Number(value) = converts value and returns the converted value or NaN
 
 - localStorage = saving, retrieving, and deleting items of any JS data type.
 - localStorage.setItem("key", JSON.stringify(value)) = save an item, saved items need to be in string format
@@ -27,8 +36,7 @@
 - dialogElement.showModal() = Displays a modal dialog box
 - dialogElement.close() = Close a modal dialog box
 
-- alert() = displays popup
-- Number(value) = converts value and returns the converted value or NaN
+- alert("message") = displays popup
 
 - `` = template literals
 - `${variable}` = using variables in template literals
@@ -115,8 +123,11 @@
 - element.addEventListener("change", callBackFunctionReference) = event listener for select box inputs, detects when value of an HTML element has changed.
 - element.addEventListener("click", callBackFunctionReference) = event listener for clicks
 - element.addEventListener("submit", callBackFunctionReference) = event listener for submit
+- element.addEventListener("keydown", callBackFunctionReference) = event listener for keydown
+	-- keyboardEventObject.key = "the pressed key"
+	-- keyboardEventObject.type = "keydown"
 - audioElement.addEventListener("ended", callBackFunctionReference) = event listener that detects when song ends.
-- an object is passed when EventListener is called: object
+- an object is created when EventListener is triggered: object
 	-- object.target.value = value of the element
 	-- object.preventDefault() = prevents default action
 	
