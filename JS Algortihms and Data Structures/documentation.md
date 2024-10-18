@@ -62,6 +62,7 @@
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
 - array.splice(indexToStartAt, numberOfItemsToRemove, optionalReplacement) = modifies arrays by removing, replacing, or adding elements at a specified index.
+- array.some(callBackFunction) = returns true if the callBackFunction returns true for at least 1 of the array elements. 
 
 - for (let iterator; condition; iteration) {logic;}
 - for (const value of iterable) {logic}
@@ -132,15 +133,23 @@
 	-- object.preventDefault() = prevents default action
 	
 - Regex
+-- regex.test(string) = returns true or false depending on if a match is found or not.
 	-- const y = /string/ => Matches with "string"
+	-- const y = /string|string2/ => Matches with "string" or "string2"
+	-- const y = /(string|string2) string3/ => Capture group that matches with "string string3" or "string2 string3"
+	-- const y = /(string)?string2/ => String is optional
+	-- const y = /(?:string)string2/ => String is optional but not captured
+	-- const y = /^string2/ => Pattern match starts at the beginning of the full string
+	-- const y = /string2$/ => Match the end of the string
 	-- const y = /string/flag
 	-- const y = /string/g => global flag. Tells the pattern to continue looking after it has found a match
 	-- const y = /string/i => case insensitive flag.
-	-- const y = /[string]/ => Tells the pattern to match the characters individually
-	-- const y = /[string]+/ => Matches a pattern that occurs one or more times
+	-- const y = /[string]/ => Character Class. Tells the pattern to match the characters individually / any character
+	-- const y = /[string]+/ => Matches a pattern that occurs one or more times, matches one or more consecutive 'string' characters
+	-- const y = /[string]*/ => Matches a pattern that occurs 0 or more times, matches one or more consecutive 'string' characters
 	-- const y = /[0-9]/ => Matches any digit between 0 and 9
+	-- const y = /[a-z]/ => Matches any character between a and z
 	-- const y = /\d/ => character class for /[0-9]/	
-	-- use \ to escape characters in regex
-	-- no need to escape characters if there's a character class
+	-- use \ to escape characters in regex. No need to escape characters if there's a character class
 	--- \s = character class for whitespace 
 	
