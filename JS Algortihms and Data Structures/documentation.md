@@ -13,6 +13,10 @@
 
 - new Audio().
 
+- new Set() = Set is a data structure that only allows unique values
+- new Set(array) = removes duplicates
+- set.size = number of set elements
+
 - new Date() = returns current date and time
 - Date.now() = returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
 - date.getDate() = retuns a number btwn 1 and 31 representing the day of the month
@@ -53,7 +57,8 @@
 - const array1, const array2. Copy array elements or combine with spread operator i.e const combinedArrays = [...array1, ...array2]
 - array.map(callBackFunction) = Runs each element through the function and returns a new array.
 - array.join("separator") = Concatenates all array elements into a single string with an optional separator that will be used to separate each array element.
-- array.sort() = Converts array elements into a string and sorts them.
+- array.toSorted() = Converts array elements into a string, sorts them and returns a new array.
+- array.sort() = Converts array elements into a string and sorts them. Mutates the original array.
 - array.sort(compareCallbackFuntion(2 parameters)) = Expects a number to be returned and if a -ve number is returned the first item is sorted before the second.
 - array.find(callBackFunction) = Returns the value of the first element that fulfills the condition specified in the callBackFunction.
 - array.indexOf(element) = Returns element index or -1 if not found.
@@ -62,19 +67,24 @@
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
 - array.splice(indexToStartAt, numberOfItemsToRemove, optionalReplacement) = modifies arrays by removing, replacing, or adding elements at a specified index.
-- array.some(callBackFunction) = returns true if the callBackFunction returns true for at least 1 of the array elements. 
+- array.some(callBackFunction) = returns true if the callBackFunction returns true for at least 1 of the array elements.
+- array.reduce(callBackFunction) = takes an array and applies a callback function to condense the array into a single value
+	-- callBackFunction = array.reduce((accumulator, currentArrayElement)){currentArrayElement},'initialValue'
+		---  return value for the callback becomes the value of the accumulator on the next iteration.
 
 - for (let iterator; condition; iteration) {logic;}
 - for (const value of iterable) {logic}
 
 - string.toLowerCase() = Lower Case
-- string.repeat(number) = repeats the string
+- string.repeat(number) = repeats the stringcurrentArrayElement,'defaultValue'
 - string.replace(characterSequenceToBeReplaced(string/regex), stringThatReplacesMatchingSequence) = returns a new string.
 - string.match(regex) = returns an array of match results containing either the first match, or all matches if the global flag is used or null if no match is found.
 - string.split() = splits a string into an array of substrings depending on a separator and returns a new array.
 - string.split(separator, limit) = Specifies character or regex to be used for splitting / where each split occurs. Upper limit on the number of splits to be found in a string / number of entries to be placed in the new array.
 	-- No separator = 1 array element.
 	-- "", empty string = every character
+	--"separator"
+	-- regex = regex
 
 - functions return undefined by default
 - function x(parameter=defaultValue){}
@@ -87,6 +97,7 @@
 - document.createElement('tagName') = Create an element
 - document.createTextNode('text') = Create a text node.
 - parentElement.appendChild(element) = Add a node or an element as the child of another element.
+- document.getElementsByClassName('className') = Get all the elements with this class name, returns a HTMLCollection
 
 - htmlINputElement.value = input value
 - htmlElement.onclick = functionName
@@ -112,7 +123,13 @@
 - (Math.random * x) + y = generates a random number between y and x
 - Math.floor() = rounds number down to nearest integer
 - Math.abs(value) = returns the absolute value
+- Math.min(...array)
+- Math.max(...array)
+- Math.pow(base, exponent); base^exponent
+- Math.sqrt(value)
 
+- Object.values(object) = returns an array with object's values  
+- Object.keys(object) = returns an array with object's keys  
 - object.key = value
 - object[key] = value
 - Object.freeze(obj) = Freezes an object and prevents any changes being made to it.
