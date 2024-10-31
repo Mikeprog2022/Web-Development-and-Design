@@ -13,9 +13,21 @@
 
 - new Audio().
 
+- Array() = array constructor
+- Array(x) = new array with size x
+- Array.fill(x) = fill array with value x, default will fill it x times array size times
+- Array.from(collection) = collection to array
+
+- String() = string constructor
+- String.fromCharCode(code) = ASCII code to character
+
 - new Set() = Set is a data structure that only allows unique values
 - new Set(array) = removes duplicates
 - set.size = number of set elements
+
+- window = object representing the browser window
+
+- Call a function returned by a function = function(x)(y)
 
 - new Date() = returns current date and time
 - Date.now() = returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
@@ -28,6 +40,7 @@
 - JSON.stringify(json) = convert json to string
 - JSON.parse(string) = convert string to json
 - parseInt(string) = Converts a string into an integer, returns int or Nan
+- parseFloat(string) = Converts a string into a float
 - String(value) = Coverts a value to a string
 - Number(value) = converts value and returns the converted value or NaN
 
@@ -62,12 +75,13 @@
 - array.sort(compareCallbackFuntion(2 parameters)) = Expects a number to be returned and if a -ve number is returned the first item is sorted before the second.
 - array.find(callBackFunction) = Returns the value of the first element that fulfills the condition specified in the callBackFunction.
 - array.indexOf(element) = Returns element index or -1 if not found.
-- array.foreach(function) = Loops through an array and performs the function on each element. Doesn't return, doesn't modify original array.
+- array.forEach(function) = Loops through an array and performs the function on each element. Doesn't return, doesn't modify original array.
 - array.filter(callBackFunction) = Only keeps the elements that satisfy the callBackFunction
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
 - array.splice(indexToStartAt, numberOfItemsToRemove, optionalReplacement) = modifies arrays by removing, replacing, or adding elements at a specified index.
 - array.some(callBackFunction) = returns true if the callBackFunction returns true for at least 1 of the array elements.
+- array.every(callBackFunction) = returns true if the callBackFunction returns true for every array element.
 - array.reduce(callBackFunction) = takes an array and applies a callback function to condense the array into a single value
 	-- callBackFunction = array.reduce((accumulator, currentArrayElement)){currentArrayElement},'initialValue'
 		---  return value for the callback becomes the value of the accumulator on the next iteration.
@@ -75,16 +89,22 @@
 - for (let iterator; condition; iteration) {logic;}
 - for (const value of iterable) {logic}
 
+- string[index] = character at index index
 - string.toLowerCase() = Lower Case
 - string.repeat(number) = repeats the stringcurrentArrayElement,'defaultValue'
-- string.replace(characterSequenceToBeReplaced(string/regex), stringThatReplacesMatchingSequence) = returns a new string.
+- string.replace(characterSequenceToBeReplaced(string/regex), stringThatReplacesMatchingSequence) = returns a new string. In the case of multiple parameters the parameters are divided according to capture groups. The first param is the whole matched string
 - string.match(regex) = returns an array of match results containing either the first match, or all matches if the global flag is used or null if no match is found.
+- string.charCodeAt(index) = Gets the ASCII code for the string character at index index
 - string.split() = splits a string into an array of substrings depending on a separator and returns a new array.
 - string.split(separator, limit) = Specifies character or regex to be used for splitting / where each split occurs. Upper limit on the number of splits to be found in a string / number of entries to be placed in the new array.
 	-- No separator = 1 array element.
 	-- "", empty string = every character
 	--"separator"
 	-- regex = regex
+- string.includes(searchValue, optionalStart) = returns true or false if a string contains a specified string. Case sensitive.
+- string.substring() =  extracts characters, between two indices (positions), from a string, and returns the substring.
+	-- substring(start, end) method extracts characters from start to end (exclusive), doesnt change original string, if start is greater than end, arguments are swapped.
+- string.slice(start, end) = extracts a part of a string. Returns the extracted part in a new string. Does not change the original string. A negative number selects from the end of the string.
 
 - functions return undefined by default
 - function x(parameter=defaultValue){}
@@ -96,16 +116,18 @@
 - document.querySelectorAll(cssSelector) = returns a NodeList of all elements that match the selector
 - document.createElement('tagName') = Create an element
 - document.createTextNode('text') = Create a text node.
-- parentElement.appendChild(element) = Add a node or an element as the child of another element.
 - document.getElementsByClassName('className') = Get all the elements with this class name, returns a HTMLCollection
 
-- htmlINputElement.value = input value
+- parentElement.appendChild(element) = Add a node or an element as the child of another element.
+- htmlInputElement.value = input value
 - htmlElement.onclick = functionName
 - htmlElement.innerText = text inbetween HTML element selectors
 - htmlElement.parentElement = get the parent element
+- htmlElement.children = get the children of the element
 - htmlElement.element.remove() = remove element
 - htmlElement.textContent = sets the text of a node. Set or retrieve the text content of an HTML element
 - Use textContent when you want all of the text inside an element, regardless of visibility or formatting. Use innerText when you care about the text as it appears to the user (i.e., considering styling and visibility).
+- htmlElement.className = set class name
 - htmlElement.style = access inline element style
 - htmlElement.style.display = "" // block, none
 - htmlElement.classList = list of classes of the element.
@@ -115,6 +137,12 @@
 - htmlElement.innerHTML = content in a HTML element, can be other elements. Sets or returns the HTML content inside an element.
 - htmlElement.insertAdjacentHTML("stringPosition", "htmlToBeInserted")
 	-- htmlElement.insertAdjacentHTML("beforeend", "htmlToBeInserted") = Insert the html as the last child
+- htmlElement.type = set type
+- htmlElement.id = set id
+- htmlElement.setAttribute(attribute, value) = set attribute
+- htmlElement.removeAttribute(attribute) = remove attribute
+- htmlElement.attribute = set or update attribute
+- inputElement.onchange = what happens when value changes
 
 - nodeList.length = Number of entries in the node list
 
@@ -128,6 +156,7 @@
 - Math.pow(base, exponent); base^exponent
 - Math.sqrt(value)
 
+- object.hasOwnProperty() = checks if a property on a given object exists or not. Returns true or false
 - Object.values(object) = returns an array with object's values  
 - Object.keys(object) = returns an array with object's keys  
 - object.key = value
@@ -137,6 +166,9 @@
 	-- const {sport, team} = myFavoriteFootballTeam; === const sport = myFavoriteFootballTeam.sport; const team = myFavoriteFootballTeam.team;
 	-- const {sport} = myFavoriteFootballTeam.sport === const sport = myFavoriteFootballTeam.sport.sport
 	-- function (object.property1, object.property2) === function ({property1, property2})
+- object literal
+	-- const x = a; const y = b;
+	-- const z = {x,y} === z = {x:a,y:b}
 
 - element.addEventListener("change", callBackFunctionReference) = event listener for select box inputs, detects when value of an HTML element has changed.
 - element.addEventListener("click", callBackFunctionReference) = event listener for clicks
@@ -147,10 +179,12 @@
 - audioElement.addEventListener("ended", callBackFunctionReference) = event listener that detects when song ends.
 - an object is created when EventListener is triggered: object
 	-- object.target.value = value of the element
+	-- object.target = element that changed
 	-- object.preventDefault() = prevents default action
 	
 - Regex
 -- regex.test(string) = returns true or false depending on if a match is found or not.
+	-- /[^a-zA-Z0-9 ]/g = matches anything that is not an alphanumeric character
 	-- const y = /string/ => Matches with "string"
 	-- const y = /string|string2/ => Matches with "string" or "string2"
 	-- const y = /(string|string2) string3/ => Capture group that matches with "string string3" or "string2 string3"
