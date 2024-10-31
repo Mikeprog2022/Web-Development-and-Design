@@ -13,6 +13,10 @@
 
 - new Audio().
 
+- class X{} = class.
+- constructor(){this.properties} = constructor
+- methods in classes dont need function label
+
 - Array() = array constructor
 - Array(x) = new array with size x
 - Array.fill(x) = fill array with value x, default will fill it x times array size times
@@ -42,7 +46,7 @@
 - parseInt(string) = Converts a string into an integer, returns int or Nan
 - parseFloat(string) = Converts a string into a float
 - String(value) = Coverts a value to a string
-- Number(value) = converts value and returns the converted value or NaN
+- Number(value) = converts value to a number and returns the converted value or NaN
 
 - localStorage = saving, retrieving, and deleting items of any JS data type.
 - localStorage.setItem("key", JSON.stringify(value)) = save an item, saved items need to be in string format
