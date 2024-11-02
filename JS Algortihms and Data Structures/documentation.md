@@ -166,12 +166,14 @@
 - htmlElement.removeAttribute(attribute) = remove attribute
 - htmlElement.attribute = set or update attribute
 - inputElement.onchange = what happens when value changes
+- radioInputElement.disabled = radio button disabled
+- radioInputElement.checked = radio button checked
 
 - nodeList.length = Number of entries in the node list
 
 - Math.random() = generates a random number between 0 and 1
-- Math.random * x = generates a random number between 0 and x
-- (Math.random * x) + y = generates a random number between y and x
+- Math.random() * x = generates a random number between 0 and x
+- (Math.random() * y) + x = generates a random number between x and y
 - Math.floor() = rounds number down to nearest integer
 - Math.abs(value) = returns the absolute value
 - Math.min(...array)
