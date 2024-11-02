@@ -13,9 +13,24 @@
 
 - new Audio().
 
+- Infinity is a number that represents positive infinity. -Infinity represents negative infinity.
+
+- Canvas API can be used to create graphics in games using JavaScript and <canvas></canvas>. CanvasRenderingContext2D API is used for drawing shapes, colors, and images on a HTML <canvas> element.
+- canvas.getContext("2d") = provides the context for where the graphics will be rendered.
+- canvas.width = positive number that represents the width of the canvas.
+- canvas.height = positive number that represents the height of the canvas.
+- canvas.fillStyle = sets the color, gradient, or pattern used to fill shapes
+- canvas.fillRect(x, y, width, height) = draws a filled rectangle on the canvas at a specified position and size.
+- canvas.clearRect(x, y, width, height)
+
+- requestAnimationFrame() web API, takes in a callback and is used to update the animation on the screen
+
+- number.toFixed(decimalPlaces) = Converts a number to a string. Rounds the string to a specified number of decimals. Default decimal places is 0. If the number of decimals are higher than in the number, zeros are added.
+
 - class X{} = class.
 - constructor(){this.properties} = constructor
 - methods in classes dont need function label
+- classObject.classMethod.bind(classObject) === classObject.classMethod()
 
 - Array() = array constructor
 - Array(x) = new array with size x
@@ -30,6 +45,8 @@
 - set.size = number of set elements
 
 - window = object representing the browser window
+- window.innerWidth = interior width of the browser window.
+- window.innerHeight = interior height of the browser window.
 
 - Call a function returned by a function = function(x)(y)
 
@@ -87,7 +104,8 @@
 - array.some(callBackFunction) = returns true if the callBackFunction returns true for at least 1 of the array elements.
 - array.every(callBackFunction) = returns true if the callBackFunction returns true for every array element.
 - array.reduce(callBackFunction) = takes an array and applies a callback function to condense the array into a single value
-	-- callBackFunction = array.reduce((accumulator, currentArrayElement)){currentArrayElement},'initialValue'
+	-- callBackFunction = array.reduce((accumulator, currentArrayElement){currentArrayElement},'initialValue')
+	-- callBackFunction = array.reduce((accumulator, currentArrayElement)=> currentArrayElement,'initialValue')
 		---  return value for the callback becomes the value of the accumulator on the next iteration.
 
 - for (let iterator; condition; iteration) {logic;}
@@ -116,6 +134,7 @@
 - Falsy = false, 0, "", null, undefined, Nan
 
 - document.querySelector("cssSelector")
+- document.querySelector("cssSelector > htmlElement") 
 - document.getElementById("idAttributeValue")
 - document.querySelectorAll(cssSelector) = returns a NodeList of all elements that match the selector
 - document.createElement('tagName') = Create an element
@@ -173,6 +192,7 @@
 - object literal
 	-- const x = a; const y = b;
 	-- const z = {x,y} === z = {x:a,y:b}
+- obj = { a: a, b: b, c: c} === obj = { a, b, c}
 
 - element.addEventListener("change", callBackFunctionReference) = event listener for select box inputs, detects when value of an HTML element has changed.
 - element.addEventListener("click", callBackFunctionReference) = event listener for clicks
@@ -180,6 +200,7 @@
 - element.addEventListener("keydown", callBackFunctionReference) = event listener for keydown
 	-- keyboardEventObject.key = "the pressed key"
 	-- keyboardEventObject.type = "keydown"
+- element.addEventListener("keyup", callBackFunctionReference) = event listener for keyup
 - audioElement.addEventListener("ended", callBackFunctionReference) = event listener that detects when song ends.
 - an object is created when EventListener is triggered: object
 	-- object.target.value = value of the element
