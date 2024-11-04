@@ -13,6 +13,15 @@
 
 - new Audio().
 
+- Fetch API is a built-in JavaScript interface to make network requests to a server.
+- fetch() = used to make GET, POST, PUT, or PATCH requests. 
+- fetch(url).then() = Returns a Promise, which is a placeholder object that will either be fulfilled if your request is successful, or rejected if your request is unsuccessful. If the Promise is fulfilled, it resolves to a Response object, and you can use the .then() method to access the Response.
+- fetch(url).then(response.json()) = parse response object into JSON. Returns a Promise.
+- If it returns a promise it must be awaited.
+- fetch(url).then(response.json()).catch() = Handles errors when Promise is rejected
+- console.error() = log possible errors to the console 
+- try{}catch(){}
+
 - Infinity is a number that represents positive infinity. -Infinity represents negative infinity.
 
 - Canvas API can be used to create graphics in games using JavaScript and <canvas></canvas>. CanvasRenderingContext2D API is used for drawing shapes, colors, and images on a HTML <canvas> element.
@@ -127,6 +136,8 @@
 - string.substring() =  extracts characters, between two indices (positions), from a string, and returns the substring.
 	-- substring(start, end) method extracts characters from start to end (exclusive), doesnt change original string, if start is greater than end, arguments are swapped.
 - string.slice(start, end) = extracts a part of a string. Returns the extracted part in a new string. Does not change the original string. A negative number selects from the end of the string.
+- string.startsWith(searchValue, start) = returns true if a string starts with a specified string. Case sensitive
+- string.concat() = joins two or more strings. Does not change the existing strings. Returns a new string.
 
 - functions return undefined by default
 - function x(parameter=defaultValue){}
