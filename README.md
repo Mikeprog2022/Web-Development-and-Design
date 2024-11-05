@@ -95,3 +95,4 @@ This journey covers my Web Development Journey
 
 * [FreeCodeCamp Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 * [FreeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+* [FreeCodeCamp Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
