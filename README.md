@@ -85,11 +85,11 @@ This journey covers my Web Development Journey
 
 ### Front End Development Libraries
 
-[ ] 1) Random Quote Machine
-[ ] 2) Markdown Preveiwer
-[ ] 3) Drum Machine
-[ ] 4) JS Calculator
-[ ] 5) 25 + 5 Clock
+- [ ] 1) Random Quote Machine
+- [ ] 2) Markdown Previewer
+- [ ] 3) Drum Machine
+- [ ] 4) JS Calculator
+- [ ] 5) 25 + 5 Clock
 
 ## Acknowledgments
 
