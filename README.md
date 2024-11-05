@@ -83,6 +83,14 @@ This journey covers my Web Development Journey
    * [x] - Asynchronous Programming
    * [x] - Search App
 
+### Front End Development Libraries
+
+[ ] 1) Random Quote Machine
+[ ] 2) Markdown Preveiwer
+[ ] 3) Drum Machine
+[ ] 4) JS Calculator
+[ ] 5) 25 + 5 Clock
+
 ## Acknowledgments
 
 * [FreeCodeCamp Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
