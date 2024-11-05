@@ -14,6 +14,7 @@ This journey covers my Web Development Journey
 ## Achievements
 
 ![Web Design Certificate](./web-design/fCCCert.jpg)
+![JS Algortihms and Data StructuresCertificate](./JS%20Algortihms%20and%20Data%20Structures/fCCJSCert.jpg)
 
 ### Web Design
 
@@ -22,6 +23,7 @@ This journey covers my Web Development Journey
    * [x] - Basic CSS
    * [x] - CSS Colors
    * [x] - HTML forms
+
 * [x] 2) Course 2
    * [x] - CSS Box model
    * [x] - CSS flexbox
@@ -55,6 +57,31 @@ This journey covers my Web Development Journey
    * [x] - DOM Manipulation
    * [x] - String and array methods
    * [x] - Palindrome checker
+
+* [x] 1) Course 2 
+   * [x] - Date Object
+   * [x] - JS Methods
+   * [x] - Local Storage
+   * [x] - Recursion
+   * [x] - Roman Numeral Converter
+
+* [x] 1) Course 3 
+   * [x] - Regex
+   * [x] - Basic Algorithmic Thinking
+   * [x] - Advanced Array Methods
+   * [x] - Functional programming
+   * [x] - Telephone Number Validator
+
+* [x] 1) Course 4 
+   * [x] - Basic OOP
+   * [x] - Intermediate OOP
+   * [x] - Algorithmic Thinking
+   * [x] - Cash Register
+
+* [x] 1) Course 5 
+   * [x] - Fetch and Promises
+   * [x] - Asynchronous Programming
+   * [x] - Search App
 
 ## Acknowledgments
 
