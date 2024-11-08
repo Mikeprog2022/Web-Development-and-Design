@@ -106,7 +106,7 @@
 - array.find(callBackFunction) = Returns the value of the first element that fulfills the condition specified in the callBackFunction.
 - array.indexOf(element) = Returns element index or -1 if not found.
 - array.forEach(function) = Loops through an array and performs the function on each element. Doesn't return, doesn't modify original array.
-- array.filter(callBackFunction) = Only keeps the elements that satisfy the callBackFunction
+- array.filter(callBackFunction) = Only keeps the elements that satisfy the callBackFunction in the new returned array.
 - array.findIndex(callBackFunction) = Finds and returns the index of the first element in an array that satisfies the function or -1 if not found.
 - array.reverse() = Reverses the order of the array elements.
 - array.splice(indexToStartAt, numberOfItemsToRemove, optionalReplacement) = modifies arrays by removing, replacing, or adding elements at a specified index.
@@ -151,6 +151,8 @@
 - document.createElement('tagName') = Create an element
 - document.createTextNode('text') = Create a text node.
 - document.getElementsByClassName('className') = Get all the elements with this class name, returns a HTMLCollection
+- document.addEventListener(event, function)
+- document.removeEventListener(event, function)
 
 - parentElement.appendChild(element) = Add a node or an element as the child of another element.
 - htmlInputElement.value = input value
@@ -206,6 +208,7 @@
 	-- const x = a; const y = b;
 	-- const z = {x,y} === z = {x:a,y:b}
 - obj = { a: a, b: b, c: c} === obj = { a, b, c}
+- const targetObject = Object.assign({}, sourceObject1, sourceObject2); = maps properties from the source objects to the target object. Any matching properties are overwritten by properties in the source objects.
 
 - element.addEventListener("change", callBackFunctionReference) = event listener for select box inputs, detects when value of an HTML element has changed.
 - element.addEventListener("click", callBackFunctionReference) = event listener for clicks
